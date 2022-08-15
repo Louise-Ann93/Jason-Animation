@@ -10,21 +10,21 @@ html, body {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background-color: lightblue;
+	background-color: #56baf8;
 	background-size: contain;
 }
 
 .sun {
-	height: 50px;
-	width: 50px;
+	height: 200px;
+	width: 200px;
 	border-radius: 100%;
 	padding: 20px;
 	position: absolute;
-	background-color: #ffdd00;
-	border: 10px solid #f1c40f;
+	background-color: #ffc94d;
+	border: 10px solid #ffd167;
 	box-shadow: 0 0 20px 8px #ffdd00;
-	top: 10%;
-	left: 15%;
+	top: -7%;
+	left: -5%;
 }
 
 .path {
@@ -72,7 +72,7 @@ html, body {
 	background-image: url(../WalkingManSpriteSheet.svg);
 	background-repeat: repeat-x;
 	background-size: 800%;
-	animation: walk 1.2s infinite steps(7);
+	animation: walk 1.3s infinite steps(7);
 }
 
 @keyframes walk {
