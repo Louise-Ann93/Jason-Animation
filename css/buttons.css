@@ -1,3 +1,5 @@
+/* main button styling */
+
 button {
 	width: 25px;
 	height: 25px;
@@ -19,155 +21,38 @@ button:hover {
 	color: white;
 }
 
-p {
-	width: 400px;
-	z-index: 1;
-	position: absolute;
-	right: 20%;
-	top: 10%;
-	font-size: 18px;
-	font-family: Helvetica, sans-serif;
-	font-weight: 500;
-	overflow-wrap: break-word;
-}
+/* daily buttons */
 
 .day-1 {
 	top: 2%;
 	left: 5%;
 }
 
-.button-1 {
-	animation: firstDay 1.5s linear forwards;
-}
-
-@keyframes firstDay  {
-	0% {
-		opacity: 0;
-	}
-	50% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-.button-2 {
-	animation: secondDay 1.5s linear forwards;
-}
-
-@keyframes secondDay  {
-	0% {
-		opacity: 0;
-	}
-	50% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-.button-3 {
-	animation: thirdDay 1.5s linear forwards;
-}
-
-@keyframes thirdDay  {
-	0% {
-		opacity: 0;
-	}
-	50% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-.button-4 {
-	animation: forthDay 1.5s linear forwards;
-}
-
-@keyframes forthDay  {
-	0% {
-		opacity: 0;
-	}
-	50% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-.button-5 {
-	animation: fifthDay 1.5s linear forwards;
-}
-
-@keyframes fifthDay  {
-	0% {
-		opacity: 0;
-	}
-	50% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-.button-6 {
-	animation: sixthDay 1.5s linear forwards;
-}
-
-@keyframes sixthDay  {
-	0% {
-		opacity: 0;
-	}
-	50% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-.button-7 {
-	animation: seventhDay 1.5s linear forwards;
-}
-
-@keyframes seventhDay  {
-	0% {
-		opacity: 0;
-	}
-	50% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
 .day-2 {
 	top: 2%;
 	left: 10%;
 }
+
 .day-3 {
 	top: 2%;
 	left: 15%;
 }
+
 .day-4 {
 	top: 2%;
 	left: 20%;
 }
+
 .day-5 {
 	top: 2%;
 	left: 25%;
 }
+
 .day-6 {
 	top: 2%;
 	left: 30%;
 }
+
 .day-7 {
 	top: 2%;
 	left: 35%;

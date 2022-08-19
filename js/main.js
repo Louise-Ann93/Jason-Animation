@@ -6,10 +6,10 @@ $(document).ready(function() {
 		} else {
 			$("#thought").removeClass('thought-clear').addClass('thought');
 		}
-		if ($('.button-1').hasClass('invisible')) {
-			$(".button-1").removeClass('invisible')
+		if ($('.thought-1').hasClass('invisible')) {
+			$(".thought-1").removeClass('invisible')
 		} else {
-			$(".button-1").addClass('invisible')
+			$(".thought-1").addClass('invisible')
 		}
 	});
 
@@ -19,10 +19,10 @@ $(document).ready(function() {
 		} else {
 			$("#thought").removeClass('thought-clear').addClass('thought');
 		}
-		if ($('.button-2').hasClass('invisible')) {
-			$(".button-2").removeClass('invisible')
+		if ($('.thought-2').hasClass('invisible')) {
+			$(".thought-2").removeClass('invisible')
 		} else {
-			$(".button-2").addClass('invisible')
+			$(".thought-2").addClass('invisible')
 		}
 	});
 
@@ -32,10 +32,10 @@ $(document).ready(function() {
 		} else {
 			$("#thought").removeClass('thought-clear').addClass('thought');
 		}
-		if ($('.button-3').hasClass('invisible')) {
-			$(".button-3").removeClass('invisible')
+		if ($('.thought-3').hasClass('invisible')) {
+			$(".thought-3").removeClass('invisible')
 		} else {
-			$(".button-3").addClass('invisible')
+			$(".thought-3").addClass('invisible')
 		}
 	});
 
@@ -45,10 +45,10 @@ $(document).ready(function() {
 		} else {
 			$("#thought").removeClass('thought-clear').addClass('thought');
 		}
-		if ($('.button-4').hasClass('invisible')) {
-			$(".button-4").removeClass('invisible')
+		if ($('.thought-4').hasClass('invisible')) {
+			$(".thought-4").removeClass('invisible')
 		} else {
-			$(".button-4").addClass('invisible')
+			$(".thought-4").addClass('invisible')
 		}
 	});
 
@@ -58,10 +58,10 @@ $(document).ready(function() {
 		} else {
 			$("#thought").removeClass('thought-clear').addClass('thought');
 		}
-		if ($('.button-5').hasClass('invisible')) {
-			$(".button-5").removeClass('invisible')
+		if ($('.thought-5').hasClass('invisible')) {
+			$(".thought-5").removeClass('invisible')
 		} else {
-			$(".button-5").addClass('invisible')
+			$(".thought-5").addClass('invisible')
 		}
 	});
 
@@ -71,10 +71,10 @@ $(document).ready(function() {
 		} else {
 			$("#thought").removeClass('thought-clear').addClass('thought');
 		}
-		if ($('.button-6').hasClass('invisible')) {
-			$(".button-6").removeClass('invisible')
+		if ($('.thought-6').hasClass('invisible')) {
+			$(".thought-6").removeClass('invisible')
 		} else {
-			$(".button-6").addClass('invisible')
+			$(".thought-6").addClass('invisible')
 		}
 	});
 
@@ -84,21 +84,11 @@ $(document).ready(function() {
 		} else {
 			$("#thought").removeClass('thought-clear').addClass('thought');
 		}
-		if ($('.button-7').hasClass('invisible')) {
-			$(".button-7").removeClass('invisible')
+		if ($('.thought-7').hasClass('invisible')) {
+			$(".thought-7").removeClass('invisible')
 		} else {
-			$(".button-7").addClass('invisible')
+			$(".thought-7").addClass('invisible')
 		}
 	});
 
-
-	// $(".day-2").click(function(){
-	// 	if ($('#sky').hasClass('storm')) {
-	// 		$(".clear-sky").css("animation-play-state", "running");
-	// 		$("#sky").removeClass('storm').addClass('clear-sky')
-	// 	} else {
-	// 		$(".storm").css("animation-play-state", "running");
-	// 		$("#sky").removeClass('clear-sky').addClass('storm')
-	// 	}
-	// });
 });

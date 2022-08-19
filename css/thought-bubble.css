@@ -1,0 +1,186 @@
+/* main thought cloud */
+
+.thought-cloud {
+	position: absolute;
+	width: 50%;
+	height: 65%;
+	opacity: 0;
+	left: 37%;
+	bottom: 35%;
+}
+
+/* daily thought information */
+.thought-1, .thought-2, .thought-3, .thought-4, .thought-5, .thought-6, .thought-7 {
+	width: 400px;
+	z-index: 1;
+	position: absolute;
+	right: 20%;
+	top: 10%;
+	opacity: 0;
+
+}
+
+/* main thought cloud show */
+.thought {
+	animation: thoughtBubble 1s linear forwards;
+}
+
+@keyframes thoughtBubble {
+	0% {
+		opacity: 0;
+		width: 0;
+		height: 0;
+		left: 37%;
+		bottom: 35%;
+
+	}
+	60% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		width: 50%;
+		height: 65%;
+		left: 40%;
+		bottom: 35%;
+	}
+}
+
+/* main thought cloud hide */
+.thought-clear {
+	animation: thoughtBubbleClear 1s linear forwards;
+}
+
+@keyframes thoughtBubbleClear {
+	0% {
+		opacity: 1;
+		width: 50%;
+		height: 65%;
+		left: 40%;
+		bottom: 35%;
+
+	}
+	40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+		width: 0;
+		height: 0;
+		left: 37%;
+		bottom: 35%;
+	}
+}
+
+/* daily thought information */
+.thought-1, .image-left, .image-right, p {
+	animation: firstDay 1.5s linear forwards;
+}
+
+@keyframes firstDay  {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.thought-2, .image-left, .image-right, p {
+	animation: secondDay 1.5s linear forwards;
+}
+
+@keyframes secondDay  {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.thought-3, .image-left, .image-right, p {
+	animation: thirdDay 1.5s linear forwards;
+}
+
+@keyframes thirdDay  {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.thought-4, .image-left, .image-right, p {
+	animation: forthDay 1.5s linear forwards;
+}
+
+@keyframes forthDay  {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.thought-5, .image-bottom, .image-right, p {
+	animation: fifthDay 1.5s linear forwards;
+}
+
+@keyframes fifthDay  {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.thought-6, .image-bottom, .image-right, p {
+	animation: sixthDay 1.5s linear forwards;
+}
+
+@keyframes sixthDay  {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.thought-7, .image-left, .image-right, .image-bottom, p {
+	animation: seventhDay 1.5s linear forwards;
+}
+
+@keyframes seventhDay  {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

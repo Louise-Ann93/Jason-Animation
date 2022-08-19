@@ -2,18 +2,28 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/animations.css">
+	<!--	stylesheets -->
+	<link rel="stylesheet" href="css/land-animations.css">
 	<link rel="stylesheet" href="css/clouds.css">
 	<link rel="stylesheet" href="css/buttons.css">
-	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<link rel="stylesheet" href="css/thought-bubble.css">
+
+	<!--	favicon -->
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+	<!--	jQuery import -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 	<title>Jason's Journey</title>
+
 </head>
 <body>
 
+<!--sky -->
 <div id="sky" class="clear-sky">
 
+	<!--	day buttons -->
 	<button class="day-1 paused">Day 1</button>
 	<button class="day-2 paused">Day 2</button>
 	<button class="day-3 paused">Day 3</button>
@@ -22,66 +32,74 @@
 	<button class="day-6 paused">Day 6</button>
 	<button class="day-7 paused">Day 7</button>
 
+	<!--	sun -->
 	<div class="sun"></div>
+	<!-- clouds -->
+	<img id="cloud1" class="cloud cloud1" src="img/cloud.svg" alt="Cloud" width="195">
+	<img id="cloud2" class="cloud cloud2" src="img/cloud.svg" alt="Cloud" width="235">
+	<img id="cloud3" class="cloud cloud3" src="img/cloud.svg" alt="Cloud" width="250">
+	<img id="cloud4" class="cloud cloud4" src="img/cloud.svg" alt="Cloud" width="310">
+	<img id="cloud5" class="cloud cloud5" src="img/cloud.svg" alt="Cloud" width="225">
+	<img id="cloud6" class="cloud cloud6" src="img/cloud.svg" alt="Cloud" width="230">
+	<img id="cloud7" class="cloud cloud7" src="img/cloud.svg" alt="Cloud" width="275">
 
-	<img id="cloud1" class="cloud cloud1" src="cloud.svg" alt="Cloud" width="195">
-	<img id="cloud2" class="cloud cloud2" src="cloud.svg" alt="Cloud" width="235">
-	<img id="cloud3" class="cloud cloud3" src="cloud.svg" alt="Cloud" width="250">
-	<img id="cloud4" class="cloud cloud4" src="cloud.svg" alt="Cloud" width="310">
-	<img id="cloud5" class="cloud cloud5" src="cloud.svg" alt="Cloud" width="225">
-	<img id="cloud6" class="cloud cloud6" src="cloud.svg" alt="Cloud" width="230">
-	<img id="cloud7" class="cloud cloud7" src="cloud.svg" alt="Cloud" width="275">
+	<!--	daily thought bubbles -->
+	<img id="thought" class="thought-cloud" src="img/bulle1.png" alt="thought bubble">
+	<div class="thought-1 invisible">
+		<span class="inline">
+			<img class="image-left" src="img/Lady-Bug.png" alt="bug" width="75">
+			<p>Meet Louise - Apprehension, Learn the Bug process</p>
+		</span>
+		<img class="image-right" src="img/laptop.png" alt="laptop" width="150">
+	</div>
+	<div class="thought-2 invisible">
+		<span class="inline">
+			<img class="image-left" src="img/dog.png" alt="dog" width="75">
+			<p>Induction Process- Lyd/Oly/Lucy, Suzette and Dolly</p>
+		</span>
+		<img class="image-right" src="img/teamwork.png" alt="teamwork" width="150">
+	</div>
+	<div class="thought-3 invisible">
+		<span class="inline">
+			<p>Meet the Devs - (Mr Youtube, Mr Milk, speedy a.k.a Kez, Man in Black - Shaun etc) Likes/dislikes</p>
+		</span>
+		<img class="image-bottom" src="img/team.png" alt="team" width="150">
+	</div>
+	<div class="thought-4 invisible">
+		<span class="inline">
+			<p>CST, Platform rules</p>
+		</span>
+		<img class="image-bottom notes" src="img/notes.png" alt="support team" width="100">
+		<img class="image-right" src="img/support.png" alt="support team" width="125">
+	</div>
+	<div class="thought-5 invisible">
+		<span class="inline">
+			<p>
+				Jumping into the sprint, headfirst - adding quality QA.
+				<br>
+				End of sprint - Platform rules
+			</p>
+		</span>
+		<img class="image-bottom" src="img/QA.png" alt="Man with laptop" width="150">
+		<img class="image-bottom stress" src="img/stress.png" alt="man stressed" width="100">
+	</div>
+	<div class="thought-6 invisible">
+		<span class="inline">
+			<img class="image-left" src="img/learn.png" alt="learning" width="100">
+			<p>Lunch and learn - Email, Mental Health, Nimbus Platform</p>
+		</span>
+		<img class="image-right" src="img/mental-health.png" alt="notes" width="100">
+	</div>
+	<div class="thought-7 invisible">
+		<span class="inline">
+			<img class="image-left" src="img/yoga.png" alt="yoga" width="75">
+			<p>Even QA rests, with a game of bowling</p>
+		</span>
+		<img class="image-bottom" src="img/salsa.png" alt="salsa" width="75">
+		<img class="image-right" src="img/bowling.png" alt="bowling" width="100">
+	</div>
 
-	<img id="thought" class="thought-cloud" src="bulle1.png" alt="thought bubble">
-	<p class="button-1 invisible">
-		<img class="image" src="Lady-Bug.png" alt="bug" width="75">
-		<br>
-		Meet Louise - Apprehension, Learn the Bug process
-		<br>
-		<img class="image" src="laptop.png" alt="laptop" width="150">
-	</p>
-	<p class="button-2 invisible">
-		<img class="image" src="dog.png" alt="dog" width="75">
-		<br>
-		Induction Process- Lyd/Oly/Lucy, Suzette and Dolly
-		<br>
-		<img class="image" src="teamwork.png" alt="teamwork" width="150">
-	</p>
-	<p class="button-3 invisible">
-		Meet the Devs - (Mr Youtube, Mr Milk, speedy a.k.a Kez, Man in Black - Shaun etc)
-		<br>
-		Likes/dislikes
-		<br>
-		<img class="image" src="team.png" alt="team" width="150">
-	</p>
-	<p class="button-4 invisible">
-		CST, Platform rules
-		<br>
-		<img class="image" src="support.png" alt="support team" width="150">
-	</p>
-	<p class="button-5 invisible">
-		Jumping into the sprint, headfirst - adding quality QA
-		<br>End of sprint - Platform rules
-		<br>
-		<img class="image" src="QA.png" alt="Man with laptop" width="150">
-		<img class="image" src="stress.png" alt="man stressed" width="125">
-	</p>
-	<p class="button-6 invisible">
-		<img class="image" src="note.png" alt="notes" width="75">
-		<br>
-		Lunch and learn - Email, Mental Health, Nimbus Platform
-		<br>
-		<img class="image" src="learn.png" alt="learning" width="150">
-	</p>
-	<p class="button-7 invisible">
-		<img class="image" src="yoga.png" alt="yoga" width="75">
-		<br>
-		Even QA rests, with a game of bowling
-		<br>
-		<img class="image" src="salsa.png" alt="salsa" width="75">
-		<img class="image" src="bowling.png" alt="bowling" width="100">
-	</p>
-
+	<!--	land animations including walking man -->
 	<div class="grass">
 		<div class="path">
 			<div class="man"></div>
@@ -91,6 +109,7 @@
 </div>
 </body>
 
+<!-- jQuery -->
 <script src="js/main.js"></script>
 
 </html>
